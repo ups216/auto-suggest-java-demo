@@ -40,10 +40,12 @@ Trie这个术语来自于retrieval。trie的发明者Edward Fredkin把它读作/
 你需要准备以下环境以便可以顺利的完成此实验：
 - Windows 10/11 或者 MacOS
 - Git 2.45 以上版本以及你所熟悉的Git客户端
-    - 下载地址：https://git-scm.com/
+  - 下载地址：https://git-scm.com/
 - JetBrains IntelliJ IDEA IDE 2023.2 版本以上，企业版或者社区版均可
-    - 下载地址：https://www.jetbrains.com/idea/
+  - 下载地址：https://www.jetbrains.com/idea/
 - Java 1.8 开发环境和对 Java 编程语言的基本了解
+- GitHub Copilot 扩展 更新到最新版本。
+  - 下载地址：https://plugins.jetbrains.com/plugin/17718-github-copilot
 - 熟悉类、方法、变量和逻辑语句
  
 > 关于开发语言的特别说明：虽然本示例采用Java语言，但是同样适用于任何编程语言背景的开发人员。由于 **AI编码助手** 支持基本上任何主流的开发语言，因此本示例中所展示的各种操作和技巧适用于任何开发语言环境。
@@ -57,7 +59,6 @@ Trie这个术语来自于retrieval。trie的发明者Edward Fredkin把它读作/
 - 练习 3 - 改进提示词让 AI编码助手 生成符合意图的代码
 - 练习 4 - 使用 AI编码助手 聊天调试和修复代码
 - 练习 5 - 使用 AI编码助手 生成单元测试代码
-- 练习 6 - 使用 AI编码助手 生成Git提交注释
 
 ## 联系我们
 
