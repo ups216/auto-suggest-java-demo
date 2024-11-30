@@ -60,6 +60,16 @@ Trie这个术语来自于retrieval。trie的发明者Edward Fredkin把它读作/
 - 练习 4 - 使用 AI编码助手 聊天调试和修复代码
 - 练习 5 - 使用 AI编码助手 生成单元测试代码
 
+## GitHub Actions 和 CI/CD 管道
+
+在本项目中，我们使用 GitHub Actions 来设置 CI/CD 管道。GitHub Actions 配置文件位于 `.github/workflows/maven.yml`。
+
+通过 GitHub Actions，我们可以自动化以下任务：
+- 设置 Java 环境
+- 检出代码库
+- 运行 Maven 命令
+- 运行测试并报告结果
+
 ## 联系我们
 
 如果您在使用 **AI编码助手** 的过程中遇到任何问题，或者您有任何建议和反馈，请随时联系我们。您可以通过以下方式联系我们：
