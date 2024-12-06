@@ -24,6 +24,17 @@ public class Trie {
         return true;
     }
 
+    public boolean search(String word) {
+        TrieNode current = root;
+        for (char c : word.toCharArray()) {
+            if (!current.hasChild(c)) {
+                return false;
+            }
+            current = current.children.get(c);
+        }
+        return current.isEndOfWord;
+    }
+
     public List<String> autoSuggest(String prefix) {
         TrieNode currentNode = root;
         for (char c : prefix.toCharArray()) {
