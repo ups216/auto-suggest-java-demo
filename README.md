@@ -67,3 +67,7 @@ Trie这个术语来自于retrieval。trie的发明者Edward Fredkin把它读作/
 - 网址 https://leansoftx.com
 - 电子邮件 info@leansoftx.com
 - 微信公众号 DevOps
+
+## CI/CD Pipeline
+
+This project uses GitHub Actions for continuous integration and continuous deployment (CI/CD). The GitHub Actions workflow is defined in the `.github/workflows/ci.yml` file. The workflow is triggered on `push` and `pull_request` events and includes steps to check out the repository, set up JDK 1.8, and run `mvn install` and `mvn test`.
